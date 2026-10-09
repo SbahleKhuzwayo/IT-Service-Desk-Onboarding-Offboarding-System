@@ -1,0 +1,43 @@
+{
+  "company_name": "Demo Company (Pty) Ltd",
+  "email_domain": "democompany.co.za",
+  "port": 8080,
+  "sla_hours": {"Critical": 4, "High": 8, "Medium": 24, "Low": 72},
+  "categories": {
+    "Password reset": "Low",
+    "Hardware fault": "Medium",
+    "Software installation": "Low",
+    "Network / Wi-Fi": "High",
+    "Email problem": "Medium",
+    "Server / system down": "Critical",
+    "Access request": "Medium",
+    "Other": "Low"
+  },
+  "departments": ["IT", "HR", "Finance", "Sales", "Operations"],
+  "onboarding_common": [
+    ["Create user account and email address", "IT"],
+    ["Assign laptop and accessories", "IT"],
+    ["Install standard software (Office, antivirus, VPN)", "IT"],
+    ["Add to company groups and mailing lists", "IT"],
+    ["Set up multi-factor authentication", "IT"],
+    ["Send welcome pack and first-day instructions", "HR"],
+    ["Complete induction and policy sign-off", "HR"]
+  ],
+  "onboarding_by_department": {
+    "IT": [["Grant admin tool access (ticketing, monitoring)", "IT"]],
+    "Finance": [["Grant finance system access", "Finance"]],
+    "Sales": [["Grant CRM access", "Sales"], ["Issue mobile phone / data SIM", "IT"]],
+    "HR": [["Grant HR system access", "HR"]],
+    "Operations": [["Grant operations system access", "Operations"]]
+  },
+  "offboarding": [
+    ["Disable user account and block sign-in", "IT"],
+    ["Revoke VPN, system and cloud access", "IT"],
+    ["Reset passwords on shared accounts", "IT"],
+    ["Back up and hand over user files", "IT"],
+    ["Set email auto-reply and forward mail to manager", "IT"],
+    ["Collect laptop, phone, access card and accessories", "IT"],
+    ["Remove from groups and mailing lists", "IT"],
+    ["Complete exit interview and final HR sign-off", "HR"]
+  ]
+}
